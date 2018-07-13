@@ -1,0 +1,123 @@
+.blog-body {
+  background: url(../img/fondo_3.jpg);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.encabezado {
+  background: #FFFFFF;
+  display: flex;
+  align-items: flex-end;
+}
+
+.menu {
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+
+.logo_blog {
+  float: left;
+  margin: 5px;
+}
+
+.redes-sociales {
+  float: right;
+  margin: 5px;
+}
+
+.img-social {
+  float: right;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+}
+
+.navbar {
+  width: 100%;
+  text-align: left;
+  border: none;
+}
+
+.navbar > li {
+  float: none;
+  display: inline-block;
+}
+
+section {
+  background: #FFFFFF;
+}
+
+.main {
+  margin-bottom: 20px;
+}
+
+.post {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #999;
+}
+
+.post .media-heading a {
+  color: #333;
+}
+
+.post .thumb {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40%;
+}
+
+.post .thumb img {
+  width: 100%;
+}
+
+.comentario textarea {
+  width: 100%;
+}
+
+.form-group {
+  text-align: center;
+}
+
+.stylish-input-group .input-group-addon {
+  background: white !important;
+}
+
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc;
+}
+
+.stylish-input-group button {
+  border: 0;
+  background: transparent;
+}
+
+.form-horizontal img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 750px) {
+  .encabezado {
+    display: block;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .articulos {
+    display: block;
+  }
+
+  .post .thumb {
+    width: 100%;
+  }
+
+}

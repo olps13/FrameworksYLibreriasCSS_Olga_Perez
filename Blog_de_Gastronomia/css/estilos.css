@@ -1,0 +1,185 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  z-index: -999;
+}
+
+.encabezado {
+  background: rgba(255, 255, 255, 0.65);
+  display: table-cell;
+  padding: 10px;
+  width: 30%;
+}
+
+body h3 {
+  color: rgb(227, 28, 40);
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.panel-izq {
+  background: rgba(251, 6, 6, 0.5);
+  padding: 10px;
+}
+
+.buscador {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.menu {
+  text-align: center;
+}
+
+.panel-der {
+  background: rgba(80, 214, 33, 0.5);
+  padding: 10px;
+}
+
+.menu a{
+  text-align: center;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.favoritos h4 {
+  position: relative;
+  border-bottom: 1px solid #da2248;
+}
+
+.block-list {
+  width: 100%;
+  line-height: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.block-list a {
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: #de1c3f;
+}
+
+.block-list, .block-list ul {
+  list-style-type: none;
+}
+
+.block-list ul {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.block-list ul li {
+  height: 4.0625rem;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block-list li {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.block-list li p {
+  margin: 0;
+}
+
+.block-list li {
+  position: relative;
+  border-bottom: 1px solid #da2248;
+}
+
+.block-list h4 {
+  position: relative;
+  border-bottom: 1px solid #da2248;
+}
+
+.block-list li > a {
+  margin-bottom: 0;
+}
+
+.block-list li p {
+  margin-bottom: 0;
+}
+
+.block-list li > a {
+  cursor: pointer;
+}
+
+.block-list li p {
+  margin-left: 0.20rem;
+}
+
+.responsive-blog-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post .individual-post {
+  margin-bottom: 4rem;
+}
+
+.responsive-blog-post h4 {
+  margin-bottom: 0;
+}
+
+.responsive-blog-post h4:hover {
+  text-decoration: underline;
+  transition: color 0.3s ease-in;
+}
+
+.responsive-blog-post .date {
+border-bottom: 1px solid #e6e6e6;
+}
+
+.responsive-blog-post .date {
+  font-size: 0.8rem;
+  color: #8a8a8a;
+}
+
+.imgholder {
+max-width: 100%;
+max-height: 411px;
+overflow: hidden;
+}
+
+article img {
+  padding-left:  20px;
+  padding-right: 20px;
+}
+
+article .comment {
+  padding: 0;
+}
+
+article .comment {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+article .button {
+  display: block;
+  margin: auto;
+  width: 150px;
+}

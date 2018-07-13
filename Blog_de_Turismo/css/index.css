@@ -1,0 +1,204 @@
+body {
+  background-image: url("../img/Paisaje.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  z-index: -999;
+}
+
+.encabezado {
+  background: rgba(255, 255, 255, 0.5);
+  height: 100%;
+}
+
+.logo_blog {
+  padding-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+
+.menu {
+  padding-top: 5px;
+  margin-top: 5px;
+}
+
+.botones {
+  float: right;
+  display: flex;
+}
+
+.menu .botones .btn {
+  background-color:  #0896dd;
+  width: auto;
+}
+
+.slogan h3 {
+  font-size: 2.5em;
+  text-shadow: 2px 2px #ffffff;
+   color: #0896dd;
+   padding: 10px;
+   text-align: center;
+}
+
+.panel_lateral {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+  height: 100%;
+}
+
+.redes {
+  display: flex;
+}
+
+.iconos {
+  margin-top: 10px;
+  min-width: 60px;
+  min-height: 60px;
+  text-align: center;
+}
+
+.contenido .row {
+  display: table;
+}
+
+.contenido .col {
+  display: table-cell;
+}
+
+.panel_izq {
+  padding: 5px;
+}
+
+.panel_centro {
+  padding: 5px;
+}
+
+.panel_der {
+  padding: 5px;
+}
+
+.fotos {
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.fotos1 {
+  margin-top: 22px;
+  margin-bottom: 7px;
+}
+
+.card-image span {
+  text-shadow: 2px 2px #000000;
+   color: #1EB80C;
+}
+
+.contenedor-blog {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contenedor-blog .foto {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 45%;
+  float: left;
+}
+
+.contenedor-blog .foto img {
+  width: 100%;
+}
+
+.contenedor-blog .foto2 {
+  margin-right: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
+
+.contenedor-blog .foto2 img {
+  width: 100%;
+}
+
+.contenedor-blog p {
+  text-align: justify;
+}
+
+.contenedor-perfil {
+  margin-left: 0px;
+  padding-left: 5px;
+  margin-right: 0px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.input-field .material-icons {
+  color: #0896dd;
+}
+
+.input-field label {
+  color: #0896dd;
+}
+
+.input-field button {
+  background: #0896dd;
+}
+
+.input-field button .material-icons {
+  color: #ffffff;
+}
+
+.input-field input:focus {
+  color: #0896dd !important;
+}
+
+.row .input-field input:focus {
+   border-bottom: 1px solid #0896dd !important;
+   box-shadow: 0 1px 0 0 #0896dd !important
+ }
+
+
+@media (max-width: 800px) {
+  .menu .botones {
+    float: none;
+  }
+
+  .slogan h3 {
+    font-size: 2em;
+  }
+
+  .iconos {
+    min-width: 40px;
+    min-height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .botones {
+    float: none;
+    display: inline;
+  }
+
+  .menu .botones .btn {
+    width: 100%;
+  }
+
+  .slogan h3 {
+    font-size: 1.8em;
+  }
+
+  .redes {
+    display: inline;
+  }
+
+  .iconos {
+    width: 45px;
+    height: 45px;
+  }
+
+  .contenedor-blog .foto {
+    width: 100%;
+  }
+}
